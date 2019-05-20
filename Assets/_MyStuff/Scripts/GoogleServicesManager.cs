@@ -49,11 +49,11 @@ public class GoogleServicesManager : MonoBehaviour
             isConnectedToGoogleServices = succes;
         });
 
-        if (!isConnectedToGoogleServices) msg = "Unable to connect";
-        else msg = "Connected";
+        //if (!isConnectedToGoogleServices) msg = "Unable to connect";
+        //else msg = "Connected";
 
-        if (uiManager != null)
-            uiManager.ShowToast(msg);
+        //if (uiManager != null)
+            //uiManager.ShowToast(msg);
 
     }
 
